@@ -9,7 +9,7 @@ import { GlobalService } from "./services/global.service";
 })
 export class AppComponent implements OnInit {
 
-  title = 'Jingles';
+  title = 'JavaScript Exhibits';
 
   constructor(private service: GlobalService, private titleService:Title){
 
